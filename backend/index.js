@@ -16,7 +16,7 @@ app.get('/surat', async (req, res) => {
     })
     
   } catch (error) {
-    console.log("Error Fetchig Data", error);
+    console.log("Error Fetching Data", error);
     res.status(500).json({ error: 'Failed to fetch data' });
   }
 })
